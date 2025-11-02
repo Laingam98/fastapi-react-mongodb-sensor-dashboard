@@ -1,0 +1,17 @@
+# Python / FastAPI
+venv/
+__pycache__/
+*.pyc
+*.db
+sensor_data.db
+
+# JavaScript / React
+node_modules/
+.npm
+npm-debug.log*
+build/
+.env.local
+.DS_Store
+
+# VS Code
+.vscode/
