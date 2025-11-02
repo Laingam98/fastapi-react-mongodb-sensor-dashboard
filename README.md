@@ -52,3 +52,41 @@ pip install -r requirements.txt
 
 # 5. Run the server
 uvicorn main:app --reload
+```
+
+### Terminal 2: Run the Frontend Dashboard
+* You must have Node.js installed.
+* This is a second, separate terminal.
+
+```bash
+# 1. Go into the frontend folder
+cd sensor-dashboard
+
+# 2. Install all node dependencies (only needed the first time)
+npm install
+
+# 3. Run the development server
+npm start
+```
+
+### Terminal 3: Run the Bridge (to start the data)
+* Plug in your ST Board.
+* This is a third, separate terminal.
+
+```bash
+# 1. Go into the backened folder
+cd my_first_backened
+
+# 2. Activate the virtual environment
+.\venv\Scripts\activate
+
+# 3. IMPORTANT: You must update the SERIAL_PORT
+#    variable inside the 'bridge.py' file to match your COM port.
+
+# 4. Run the bridge script.
+python bridge.py
+
+
+
+  
+
