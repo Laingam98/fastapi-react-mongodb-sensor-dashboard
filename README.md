@@ -54,7 +54,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### Terminal 2: Run the Frontend Dashboard
+### 2. Terminal 2: Run the Frontend Dashboard
 * You must have Node.js installed.
 * This is a second, separate terminal.
 
@@ -69,7 +69,7 @@ npm install
 npm start
 ```
 
-### Terminal 3: Run the Bridge (to start the data)
+### 3. Terminal 3: Run the Bridge (to start the data)
 * Plug in your ST Board.
 * This is a third, separate terminal.
 
