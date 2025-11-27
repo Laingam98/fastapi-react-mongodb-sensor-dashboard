@@ -4,7 +4,7 @@ A full-stack, real-time sensor dashboard. This project streams live acceleromete
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Real-time Data:** Live data streaming from hardware to the browser using WebSockets.
 * **NoSQL Database:** Uses MongoDB to store high-volume time-series data efficiently.
@@ -13,7 +13,7 @@ A full-stack, real-time sensor dashboard. This project streams live acceleromete
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * **Backend:** Python, FastAPI, MongoDB, Beanie (ODM), WebSockets
 * **Frontend:** React.js, Chart.js, JavaScript (ES6+), CSS
@@ -22,7 +22,7 @@ A full-stack, real-time sensor dashboard. This project streams live acceleromete
 
 ---
 
-## 📊 How It Works (Data Pipeline)
+## How It Works (Data Pipeline)
 
 1.  The **ST Board** reads sensor data and sends it over UART.
 2.  A **Python Bridge (`bridge.py`)** listens to the serial port, parses the data, and `POST`s it to the API.
@@ -31,7 +31,7 @@ A full-stack, real-time sensor dashboard. This project streams live acceleromete
 
 ---
 
-## 🏁 How to Run
+## How to Run
 
 ### 1. Backend (`my_first_backened`)
 
